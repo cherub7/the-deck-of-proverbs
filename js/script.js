@@ -30,11 +30,6 @@ const proverbs = [
         "reference": "Proverbs 27:17"
     },
     {
-        "beginning": "Better a little with righteousness",
-        "ending": "than much gain with injustice.",
-        "reference": "Proverbs 16:8"
-    },
-    {
         "beginning": "A wise man listens to advice,",
         "ending": "but a fool despises it.",
         "reference": "Proverbs 12:15"
@@ -362,7 +357,7 @@ function checkForMatch() {
         matchedPairs++;
         score++;
         const scoreCounter = document.getElementById('score-counter')
-        scoreCounter.hidden = false
+        scoreCounter.classList.remove('hidden')
         scoreCounter.innerText = score;
         flippedCards = [];
 
@@ -414,6 +409,53 @@ function reInitializeGameBoard() {
         // Logic to reload new cards
         initializeGameBoard();
     }, 1000);
+}
+
+function closeTutorial() {
+    document.getElementById('tutorial-overlay').classList.add('hidden');
+}
+
+// Show the tutorial on page load
+window.onload = function() {
+    document.getElementById('tutorial-overlay').classList.remove('hidden');
+    setInterval(startExampleAnimation, 3000)
+}
+
+function startExampleAnimation() {
+    const card1 = document.getElementById('card1');
+    const card2 = document.getElementById('card2');
+    const cursor = document.getElementById('cursor');
+
+    function positionCursor(card) {
+        const cardRect = card.getBoundingClientRect();
+        cursor.style.top = `${cardRect.top + cardRect.height - 30}px`;
+        cursor.style.left = `${cardRect.left + cardRect.width - 30}px`;
+    }
+
+    setTimeout(() => {
+        cursor.classList.remove('hidden');
+        positionCursor(card1)
+        card1.classList.add('tap');
+        card1.classList.add('flipped');
+    }, 500);
+
+    setTimeout(() => {
+        positionCursor(card2)
+    }, 1000)
+
+    setTimeout(() => {
+        card1.classList.remove('tap');
+        card2.classList.add('tap');
+        card2.classList.add('flipped');
+    }, 1500);
+
+    setTimeout(() => {
+        card2.classList.remove('tap');    
+        card1.classList.remove('flipped');
+        card2.classList.remove('flipped');
+        cursor.classList.add('hidden');
+        positionCursor(card1)
+    }, 2500);
 }
 
 // TODO:

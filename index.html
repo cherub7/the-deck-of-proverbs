@@ -8,8 +8,30 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="counter" hidden id="score-counter">0</div>
+    <div class="counter hidden" id="score-counter">0</div>
     <div id="game-board"></div>
     <script src="./js/script.js"></script>
+    <div id="tutorial-overlay" class="hidden">
+        <div class="tutorial-content">
+            <p>👑 THE DECK OF PROVERBS 👑</p>
+            <p>Tap on the cards to pair up related verses!</p>
+            <div class="example-cards">
+                <div class="card example-card" id="card1">
+                    <div class="content">
+                        <p>A gentle answer turns away wrath.</p>
+                    </div>
+                </div>
+                <div class="card example-card" id="card2">
+                    <div class="content">
+                        <p>But a harsh word stirs up anger.</p>
+                    </div>
+                </div>
+                <img id="cursor" src="./images/cursor.svg" class="hidden" alt="Cursor">
+            </div>
+            <div class="tutorial-btn" onclick="closeTutorial()">
+                <div class="tutorial-btn-inner">GOT IT!</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
