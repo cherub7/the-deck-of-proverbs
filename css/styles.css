@@ -1,0 +1,143 @@
+:root {
+    --first-color: #ff6464;
+    --second-color: #ff8264;
+    --third-color: #ffaa64;
+    --fourth-color: #fff5a5;
+}
+
+body {
+    font-family: 'Lora', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--first-color);
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 80%;
+}
+
+.card.flipped {
+    background-color: var(--fourth-color);
+    color: var(--first-color)
+}
+
+.card {
+    width: 70%;
+    padding: 20px;
+    background-color: var(--second-color);
+    border: 2px solid var(--third-color);
+    color: var(--fourth-color);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer; /* Makes it clear that the card is clickable */
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Ensure it is above the pseudo-elements */
+}
+
+.content::before, .content::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--third-color), transparent);
+}
+
+.content::before {
+    top: -10px;
+}
+
+.content::after {
+    bottom: -10px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+.card.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+.card.appear {
+    animation: appear 1s forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.counter {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 5vh;
+    font-family: Arial, sans-serif;
+    color: var(--fourth-color);
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
