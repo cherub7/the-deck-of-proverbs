@@ -1,297 +1,523 @@
 const proverbs = [
     {
-        "beginning": "A gentle answer turns away wrath,",
-        "ending": "but a harsh word stirs up anger.",
-        "reference": "Proverbs 15:1"
+        "chapter": 10,
+        "verse": 1,
+        "beginning": "A wise son makes a glad father;",
+        "ending": "but a foolish son brings grief to his mother."
     },
     {
-        "beginning": "Pride goes before destruction,",
-        "ending": "a haughty spirit before a fall.",
-        "reference": "Proverbs 16:18"
+        "chapter": 10,
+        "verse": 2,
+        "beginning": "Treasures of wickedness profit nothing,",
+        "ending": "but righteousness delivers from death."
     },
     {
-        "beginning": "The fear of the Lord is the beginning of wisdom,",
-        "ending": "and knowledge of the Holy One is understanding.",
-        "reference": "Proverbs 9:10"
+        "chapter": 10,
+        "verse": 3,
+        "beginning": "Yahweh will not allow the soul of the righteous to go hungry,",
+        "ending": "but he thrusts away the desire of the wicked."
     },
     {
-        "beginning": "Trust in the Lord with all your heart",
-        "ending": "and lean not on your own understanding.",
-        "reference": "Proverbs 3:5"
+        "chapter": 10,
+        "verse": 4,
+        "beginning": "He becomes poor who works with a lazy hand,",
+        "ending": "but the hand of the diligent brings wealth."
     },
     {
-        "beginning": "A cheerful heart is good medicine,",
-        "ending": "but a crushed spirit dries up the bones.",
-        "reference": "Proverbs 17:22"
+        "chapter": 10,
+        "verse": 5,
+        "beginning": "He who gathers in summer is a wise son,",
+        "ending": "but he who sleeps during the harvest is a son who causes shame."
     },
     {
-        "beginning": "As iron sharpens iron,",
-        "ending": "so one person sharpens another.",
-        "reference": "Proverbs 27:17"
+        "chapter": 10,
+        "verse": 6,
+        "beginning": "Blessings are on the head of the righteous,",
+        "ending": "but violence covers the mouth of the wicked."
     },
     {
-        "beginning": "A wise man listens to advice,",
-        "ending": "but a fool despises it.",
-        "reference": "Proverbs 12:15"
+        "chapter": 10,
+        "verse": 7,
+        "beginning": "The memory of the righteous is blessed,",
+        "ending": "but the name of the wicked will rot."
     },
     {
-        "beginning": "The path of the righteous is like the morning sun,",
-        "ending": "shining ever brighter till the full light of day.",
-        "reference": "Proverbs 4:18"
+        "chapter": 10,
+        "verse": 8,
+        "beginning": "The wise in heart accept commandments,",
+        "ending": "but a chattering fool will fall."
     },
     {
-        "beginning": "He who finds a wife finds what is good",
-        "ending": "and receives favor from the Lord.",
-        "reference": "Proverbs 18:22"
+        "chapter": 10,
+        "verse": 9,
+        "beginning": "He who walks blamelessly walks surely,",
+        "ending": "but he who perverts his ways will be found out."
     },
     {
-        "beginning": "A fool gives full vent to his anger,",
-        "ending": "but a wise man keeps himself under control.",
-        "reference": "Proverbs 29:11"
+        "chapter": 10,
+        "verse": 10,
+        "beginning": "One who winks with the eye causes sorrow,",
+        "ending": "but a chattering fool will fall."
     },
     {
-        "beginning": "Better a dry crust with peace and quiet",
-        "ending": "than a house full of feasting, with strife.",
-        "reference": "Proverbs 17:1"
+        "chapter": 10,
+        "verse": 11,
+        "beginning": "The mouth of the righteous is a spring of life,",
+        "ending": "but violence covers the mouth of the wicked."
     },
     {
-        "beginning": "The tongue has the power of life and death,",
-        "ending": "and those who love it will eat its fruit.",
-        "reference": "Proverbs 18:21"
+        "chapter": 10,
+        "verse": 12,
+        "beginning": "Hatred stirs up strife,",
+        "ending": "but love covers all wrongs."
     },
     {
-        "beginning": "A good name is more desirable than great riches;",
-        "ending": "to be esteemed is better than silver or gold.",
-        "reference": "Proverbs 22:1"
+        "chapter": 10,
+        "verse": 13,
+        "beginning": "Wisdom is found on the lips of him who has discernment,",
+        "ending": "but a rod is for the back of him who is void of understanding."
     },
     {
-        "beginning": "Like a city whose walls are broken through",
-        "ending": "is a person who lacks self-control.",
-        "reference": "Proverbs 25:28"
+        "chapter": 10,
+        "verse": 14,
+        "beginning": "Wise men lay up knowledge,",
+        "ending": "but the mouth of the foolish is near ruin."
     },
     {
-        "beginning": "The Lord detests dishonest scales,",
-        "ending": "but accurate weights find favor with him.",
-        "reference": "Proverbs 11:1"
+        "chapter": 10,
+        "verse": 15,
+        "beginning": "The rich man's wealth is his strong city.",
+        "ending": "The destruction of the poor is their poverty."
     },
     {
-        "beginning": "He who is slow to anger has great understanding,",
-        "ending": "but he who has a hasty temper exalts folly.",
-        "reference": "Proverbs 14:29"
+        "chapter": 10,
+        "verse": 16,
+        "beginning": "The labor of the righteous leads to life.",
+        "ending": "The increase of the wicked leads to sin."
     },
     {
-        "beginning": "A man’s wisdom gives him patience;",
-        "ending": "it is to his glory to overlook an offense.",
-        "reference": "Proverbs 19:11"
+        "chapter": 10,
+        "verse": 17,
+        "beginning": "He is in the way of life who heeds correction,",
+        "ending": "but he who forsakes reproof leads others astray."
     },
     {
-        "beginning": "Whoever is patient has great understanding,",
-        "ending": "but one who is quick-tempered displays folly.",
-        "reference": "Proverbs 14:29"
+        "chapter": 10,
+        "verse": 18,
+        "beginning": "He who hides hatred has lying lips.",
+        "ending": "He who utters a slander is a fool."
     },
     {
-        "beginning": "Wine is a mocker, strong drink is raging:",
-        "ending": "and whosoever is deceived thereby is not wise.",
-        "reference": "Proverbs 20:1"
+        "chapter": 10,
+        "verse": 19,
+        "beginning": "In the multitude of words there is no lack of disobedience,",
+        "ending": "but he who restrains his lips does wisely."
     },
     {
-        "beginning": "A rich man’s wealth is his strong city,",
-        "ending": "and like a high wall in his own conceit.",
-        "reference": "Proverbs 18:11"
+        "chapter": 10,
+        "verse": 20,
+        "beginning": "The tongue of the righteous is like choice silver.",
+        "ending": "The heart of the wicked is of little worth."
     },
     {
-        "beginning": "The sluggard does not plow in the autumn;",
-        "ending": "he will seek at harvest and have nothing.",
-        "reference": "Proverbs 20:4"
+        "chapter": 10,
+        "verse": 21,
+        "beginning": "The lips of the righteous feed many,",
+        "ending": "but the foolish die for lack of understanding."
     },
     {
-        "beginning": "Better a little with the fear of the Lord",
-        "ending": "than great wealth with turmoil.",
-        "reference": "Proverbs 15:16"
+        "chapter": 10,
+        "verse": 22,
+        "beginning": "Yahweh's blessing brings wealth,",
+        "ending": "and he adds no trouble to it."
     },
     {
-        "beginning": "A wise son brings joy to his father,",
-        "ending": "but a foolish son brings grief to his mother.",
-        "reference": "Proverbs 10:1"
+        "chapter": 10,
+        "verse": 23,
+        "beginning": "It is a fool's pleasure to do wickedness,",
+        "ending": "but wisdom is a man of understanding's pleasure."
     },
     {
-        "beginning": "A person who is not wise in his own eyes,",
-        "ending": "but fears the Lord, is considered wise.",
-        "reference": "Proverbs 3:7"
+        "chapter": 10,
+        "verse": 24,
+        "beginning": "What the wicked fear will overtake them,",
+        "ending": "but the desire of the righteous will be granted."
     },
     {
-        "beginning": "The plans of the diligent lead to profit",
-        "ending": "as surely as haste leads to poverty.",
-        "reference": "Proverbs 21:5"
+        "chapter": 10,
+        "verse": 25,
+        "beginning": "When the whirlwind passes, the wicked is no more;",
+        "ending": "but the righteous stand firm forever."
     },
     {
-        "beginning": "A man who isolates himself seeks his own desire;",
-        "ending": "he rages against all wise judgment.",
-        "reference": "Proverbs 18:1"
+        "chapter": 10,
+        "verse": 26,
+        "beginning": "As vinegar to the teeth, and as smoke to the eyes,",
+        "ending": "so is the sluggard to those who send him."
     },
     {
-        "beginning": "As water reflects the face,",
-        "ending": "so one’s life reflects the heart.",
-        "reference": "Proverbs 27:19"
+        "chapter": 10,
+        "verse": 27,
+        "beginning": "The fear of Yahweh prolongs days,",
+        "ending": "but the years of the wicked shall be shortened."
     },
     {
-        "beginning": "He who covers over an offense promotes love,",
-        "ending": "but whoever repeats the matter separates close friends.",
-        "reference": "Proverbs 17:9"
+        "chapter": 10,
+        "verse": 28,
+        "beginning": "The prospect of the righteous is joy,",
+        "ending": "but the hope of the wicked will perish."
     },
     {
-        "beginning": "Do not answer a fool according to his folly,",
-        "ending": "or you yourself will be just like him.",
-        "reference": "Proverbs 26:4"
+        "chapter": 10,
+        "verse": 29,
+        "beginning": "The way of Yahweh is a stronghold to the upright,",
+        "ending": "but it is a destruction to the workers of iniquity."
     },
     {
+        "chapter": 10,
+        "verse": 30,
+        "beginning": "The righteous will never be removed,",
+        "ending": "but the wicked will not dwell in the land."
+    },
+    {
+        "chapter": 10,
+        "verse": 31,
+        "beginning": "The mouth of the righteous produces wisdom,",
+        "ending": "but the perverse tongue will be cut off."
+    },
+    {
+        "chapter": 10,
+        "verse": 32,
         "beginning": "The lips of the righteous know what is acceptable,",
-        "ending": "but the mouth of the wicked knows only what is perverse.",
-        "reference": "Proverbs 10:32"
+        "ending": "but the mouth of the wicked is perverse."
     },
     {
-        "beginning": "The wise in heart are called discerning,",
-        "ending": "and gracious words promote instruction.",
-        "reference": "Proverbs 16:21"
+        "chapter": 18,
+        "verse": 1,
+        "beginning": "A man who isolates himself pursues selfishness,",
+        "ending": "and defies all sound judgment."
     },
     {
-        "beginning": "Those who guard their lips preserve their lives,",
-        "ending": "but those who speak rashly will come to ruin.",
-        "reference": "Proverbs 13:3"
+        "chapter": 18,
+        "verse": 2,
+        "beginning": "A fool has no delight in understanding,",
+        "ending": "but only in revealing his own opinion."
     },
     {
-        "beginning": "The way of the Lord is a refuge for the blameless,",
-        "ending": "but it is the ruin of those who do evil.",
-        "reference": "Proverbs 10:29"
+        "chapter": 18,
+        "verse": 3,
+        "beginning": "When wickedness comes, contempt also comes,",
+        "ending": "and with shame comes disgrace."
     },
     {
-        "beginning": "A good man leaves an inheritance to his children’s children,",
-        "ending": "but the sinner’s wealth is stored up for the righteous.",
-        "reference": "Proverbs 13:22"
+        "chapter": 18,
+        "verse": 4,
+        "beginning": "The words of a man's mouth are like deep waters.",
+        "ending": "The fountain of wisdom is like a flowing brook."
     },
     {
-        "beginning": "He who is kind to the poor lends to the Lord,",
-        "ending": "and he will reward him for what he has done.",
-        "reference": "Proverbs 19:17"
+        "chapter": 18,
+        "verse": 5,
+        "beginning": "To be partial to the faces of the wicked is not good,",
+        "ending": "nor to deprive the innocent of justice."
     },
     {
-        "beginning": "He who finds a wife finds what is good",
-        "ending": "and receives favor from the Lord.",
-        "reference": "Proverbs 18:22"
+        "chapter": 18,
+        "verse": 6,
+        "beginning": "A fool's lips come into strife,",
+        "ending": "and his mouth invites beatings."
     },
     {
-        "beginning": "Whoever loves discipline loves knowledge,",
-        "ending": "but whoever hates correction is stupid.",
-        "reference": "Proverbs 12:1"
+        "chapter": 18,
+        "verse": 7,
+        "beginning": "A fool's mouth is his destruction,",
+        "ending": "and his lips are a snare to his soul."
     },
     {
-        "beginning": "Plans fail for lack of counsel,",
-        "ending": "but with many advisers they succeed.",
-        "reference": "Proverbs 15:22"
+        "chapter": 18,
+        "verse": 8,
+        "beginning": "The words of a gossip are like dainty morsels:",
+        "ending": "they go down into a person's innermost parts."
     },
     {
-        "beginning": "A man of knowledge uses words with restraint,",
-        "ending": "and a man of understanding is even-tempered.",
-        "reference": "Proverbs 17:27"
+        "chapter": 18,
+        "verse": 9,
+        "beginning": "One who is slack in his work",
+        "ending": "is brother to him who is a master of destruction."
     },
     {
-        "beginning": "The lazy do not roast any game,",
-        "ending": "but the diligent feed on the riches of the hunt.",
-        "reference": "Proverbs 12:27"
+        "chapter": 18,
+        "verse": 10,
+        "beginning": "Yahweh's name is a strong tower:",
+        "ending": "the righteous run to him, and are safe."
     },
     {
-        "beginning": "Do not withhold discipline from a child;",
-        "ending": "if you punish them with the rod, they will not die.",
-        "reference": "Proverbs 23:13"
+        "chapter": 18,
+        "verse": 11,
+        "beginning": "The rich man's wealth is his strong city,",
+        "ending": "like an unscalable wall in his own imagination."
     },
     {
-        "beginning": "A hot-tempered person stirs up conflict,",
-        "ending": "but the one who is patient calms a quarrel.",
-        "reference": "Proverbs 15:18"
+        "chapter": 18,
+        "verse": 12,
+        "beginning": "Before destruction the heart of man is proud,",
+        "ending": "but before honor is humility."
     },
     {
-        "beginning": "The generous will themselves be blessed,",
-        "ending": "for they share their food with the poor.",
-        "reference": "Proverbs 22:9"
+        "chapter": 18,
+        "verse": 13,
+        "beginning": "He who answers before he hears,",
+        "ending": "that is folly and shame to him."
     },
     {
-        "beginning": "A wise servant will rule over a disgraceful son",
-        "ending": "and will share the inheritance as one of the family.",
-        "reference": "Proverbs 17:2"
+        "chapter": 18,
+        "verse": 14,
+        "beginning": "A man's spirit will sustain him in sickness,",
+        "ending": "but a crushed spirit, who can bear?"
     },
     {
-        "beginning": "The way of fools seems right to them,",
-        "ending": "but the wise listen to advice.",
-        "reference": "Proverbs 12:15"
+        "chapter": 18,
+        "verse": 15,
+        "beginning": "The heart of the discerning gets knowledge.",
+        "ending": "The ear of the wise seeks knowledge."
     },
     {
-        "beginning": "Even fools are thought wise if they keep silent,",
-        "ending": "and discerning if they hold their tongues.",
-        "reference": "Proverbs 17:28"
+        "chapter": 18,
+        "verse": 16,
+        "beginning": "A man's gift makes room for him,",
+        "ending": "and brings him before great men."
     },
     {
-        "beginning": "The heart of the discerning acquires knowledge;",
-        "ending": "the ears of the wise seek it out.",
-        "reference": "Proverbs 18:15"
+        "chapter": 18,
+        "verse": 17,
+        "beginning": "He who pleads his cause first seems right",
+        "ending": "until another comes and questions him."
     },
     {
-        "beginning": "The tongue of the wise adorns knowledge,",
-        "ending": "but the mouth of the fool gushes folly.",
-        "reference": "Proverbs 15:2"
+        "chapter": 18,
+        "verse": 18,
+        "beginning": "The lot settles disputes,",
+        "ending": "and keeps strong ones apart."
     },
     {
-        "beginning": "A false witness will perish,",
-        "ending": "but a careful listener will testify successfully.",
-        "reference": "Proverbs 21:28"
+        "chapter": 18,
+        "verse": 19,
+        "beginning": "A brother offended is more difficult than a fortified city.",
+        "ending": "Disputes are like the bars of a fortress."
     },
     {
-        "beginning": "A wise man’s heart guides his mouth,",
-        "ending": "and his lips promote instruction.",
-        "reference": "Proverbs 16:23"
+        "chapter": 18,
+        "verse": 20,
+        "beginning": "A man's stomach is filled with the fruit of his mouth.",
+        "ending": "With the harvest of his lips he is satisfied."
     },
     {
-        "beginning": "The wicked flee though no one pursues,",
-        "ending": "but the righteous are as bold as a lion.",
-        "reference": "Proverbs 28:1"
+        "chapter": 18,
+        "verse": 21,
+        "beginning": "Death and life are in the power of the tongue;",
+        "ending": "those who love it will eat its fruit."
     },
     {
-        "beginning": "The Lord is far from the wicked,",
-        "ending": "but he hears the prayer of the righteous.",
-        "reference": "Proverbs 15:29"
+        "chapter": 18,
+        "verse": 22,
+        "beginning": "Whoever finds a wife finds a good thing,",
+        "ending": "and obtains favor of Yahweh."
     },
     {
-        "beginning": "A man’s wisdom gives him patience;",
-        "ending": "it is to his glory to overlook an offense.",
-        "reference": "Proverbs 19:11"
+        "chapter": 18,
+        "verse": 23,
+        "beginning": "The poor plead for mercy,",
+        "ending": "but the rich answer harshly."
     },
     {
-        "beginning": "Better a little with righteousness",
-        "ending": "than much gain with injustice.",
-        "reference": "Proverbs 16:8"
+        "chapter": 18,
+        "verse": 24,
+        "beginning": "A man of many companions may be ruined,",
+        "ending": "but there is a friend who sticks closer than a brother."
     },
     {
-        "beginning": "The fear of the Lord is the beginning of wisdom,",
-        "ending": "and knowledge of the Holy One is understanding.",
-        "reference": "Proverbs 9:10"
+        "chapter": 20,
+        "verse": 1,
+        "beginning": "Wine is a mocker and beer is a brawler.",
+        "ending": "Whoever is led astray by them is not wise."
     },
     {
-        "beginning": "A fool shows his annoyance at once,",
-        "ending": "but a prudent man overlooks an insult.",
-        "reference": "Proverbs 12:16"
+        "chapter": 20,
+        "verse": 2,
+        "beginning": "The terror of a king is like the roaring of a lion.",
+        "ending": "He who provokes him to anger forfeits his own life."
     },
     {
-        "beginning": "The Lord’s blessing is on the head of the righteous,",
-        "ending": "but the mouth of the wicked conceals violence.",
-        "reference": "Proverbs 10:6"
+        "chapter": 20,
+        "verse": 3,
+        "beginning": "It is an honor for a man to keep aloof from strife,",
+        "ending": "but every fool will be quarreling."
     },
     {
-        "beginning": "The way of the Lord is a refuge for the blameless,",
-        "ending": "but it is the ruin of those who do evil.",
-        "reference": "Proverbs 10:29"
+        "chapter": 20,
+        "verse": 4,
+        "beginning": "The sluggard will not plow by reason of the winter;",
+        "ending": "therefore he shall beg in harvest, and have nothing."
+    },
+    {
+        "chapter": 20,
+        "verse": 5,
+        "beginning": "Counsel in the heart of man is like deep water,",
+        "ending": "but a man of understanding will draw it out."
+    },
+    {
+        "chapter": 20,
+        "verse": 6,
+        "beginning": "Many men claim to be men of unfailing love,",
+        "ending": "but who can find a faithful man?"
+    },
+    {
+        "chapter": 20,
+        "verse": 7,
+        "beginning": "A righteous man walks in integrity.",
+        "ending": "Blessed are his children after him."
+    },
+    {
+        "chapter": 20,
+        "verse": 8,
+        "beginning": "A king who sits on the throne of judgment",
+        "ending": "scatters away all evil with his eyes."
+    },
+    {
+        "chapter": 20,
+        "verse": 9,
+        "beginning": "Who can say, \"I have made my heart pure.",
+        "ending": "I am clean and without sin\"?"
+    },
+    {
+        "chapter": 20,
+        "verse": 10,
+        "beginning": "Differing weights and differing measures,",
+        "ending": "both of them alike are an abomination to Yahweh."
+    },
+    {
+        "chapter": 20,
+        "verse": 11,
+        "beginning": "Even a child makes himself known by his doings,",
+        "ending": "whether his work is pure, and whether it is right."
+    },
+    {
+        "chapter": 20,
+        "verse": 12,
+        "beginning": "The hearing ear, and the seeing eye,",
+        "ending": "Yahweh has made even both of them."
+    },
+    {
+        "chapter": 20,
+        "verse": 13,
+        "beginning": "Don't love sleep, lest you come to poverty.",
+        "ending": "Open your eyes, and you shall be satisfied with bread."
+    },
+    {
+        "chapter": 20,
+        "verse": 14,
+        "beginning": "\"It's no good, it's no good,\" says the buyer;",
+        "ending": "but when he is gone his way, then he boasts."
+    },
+    {
+        "chapter": 20,
+        "verse": 15,
+        "beginning": "There is gold and abundance of rubies,",
+        "ending": "but the lips of knowledge are a rare jewel."
+    },
+    {
+        "chapter": 20,
+        "verse": 16,
+        "beginning": "Take the garment of one who puts up collateral for a stranger;",
+        "ending": "and hold him in pledge for a wayward woman."
+    },
+    {
+        "chapter": 20,
+        "verse": 17,
+        "beginning": "Fraudulent food is sweet to a man,",
+        "ending": "but afterwards his mouth is filled with gravel."
+    },
+    {
+        "chapter": 20,
+        "verse": 18,
+        "beginning": "Plans are established by advice;",
+        "ending": "by wise guidance you wage war!"
+    },
+    {
+        "chapter": 20,
+        "verse": 19,
+        "beginning": "He who goes about as a tale-bearer reveals secrets;",
+        "ending": "therefore don't keep company with him who opens wide his lips."
+    },
+    {
+        "chapter": 20,
+        "verse": 20,
+        "beginning": "Whoever curses his father or his mother,",
+        "ending": "his lamp shall be put out in blackness of darkness."
+    },
+    {
+        "chapter": 20,
+        "verse": 21,
+        "beginning": "An inheritance quickly gained at the beginning",
+        "ending": "won't be blessed in the end."
+    },
+    {
+        "chapter": 20,
+        "verse": 22,
+        "beginning": "Don't say, \"I will pay back evil.\"",
+        "ending": "Wait for Yahweh, and he will save you."
+    },
+    {
+        "chapter": 20,
+        "verse": 23,
+        "beginning": "Yahweh detests differing weights,",
+        "ending": "and dishonest scales are not pleasing."
+    },
+    {
+        "chapter": 20,
+        "verse": 24,
+        "beginning": "A man's steps are from Yahweh;",
+        "ending": "how then can man understand his way?"
+    },
+    {
+        "chapter": 20,
+        "verse": 25,
+        "beginning": "It is a snare to a man to make a rash dedication,",
+        "ending": "then later to consider his vows."
+    },
+    {
+        "chapter": 20,
+        "verse": 26,
+        "beginning": "A wise king winnows out the wicked,",
+        "ending": "and drives the threshing wheel over them."
+    },
+    {
+        "chapter": 20,
+        "verse": 27,
+        "beginning": "The spirit of man is Yahweh's lamp,",
+        "ending": "searching all his innermost parts."
+    },
+    {
+        "chapter": 20,
+        "verse": 28,
+        "beginning": "Love and faithfulness keep the king safe.",
+        "ending": "His throne is sustained by love."
+    },
+    {
+        "chapter": 20,
+        "verse": 29,
+        "beginning": "The glory of young men is their strength.",
+        "ending": "The splendor of old men is their gray hair."
+    },
+    {
+        "chapter": 20,
+        "verse": 30,
+        "beginning": "Wounding blows cleanse away evil,",
+        "ending": "and beatings purge the innermost parts."
     }
 ]
 
-
+// globals 😅
 let flippedCards = [];
 let matchedPairs = 0;
 let matchCount = 0;
@@ -320,10 +546,11 @@ function removeNonAlphabeticEnd(str) {
     return str;
 }
 
-function createCard(text, type) {
+function createCard(text, id, proverb) {
     const card = document.createElement('div');
+    card.id = id
     card.classList.add('card');
-    card.dataset.type = type;
+    card.dataset.type = id;
 
     const content = document.createElement('div');
     content.classList.add('content');
@@ -331,9 +558,14 @@ function createCard(text, type) {
     const p = document.createElement('p');
     p.textContent = removeNonAlphabeticEnd(text);
 
-    content.appendChild(p)
+    const reference = document.createElement('div');
+    reference.innerText = `${proverb.chapter}:${proverb.verse}`
+    reference.classList.add('reference')
+
+    content.appendChild(p);
     card.addEventListener('click', onCardClicked);
-    card.appendChild(content)
+    card.appendChild(content);
+    card.appendChild(reference);
     return card;
 }
 
@@ -354,15 +586,26 @@ function checkForMatch() {
     const [card1, card2] = flippedCards;
 
     if (card1.dataset.type === card2.dataset.type) {
+        // update globals
         matchedPairs++;
         score++;
+        flippedCards = [];
+        
+        // update the score count
         const scoreCounter = document.getElementById('score-counter')
         scoreCounter.classList.remove('hidden')
         scoreCounter.innerText = score;
-        flippedCards = [];
+
+        // show reference
+        const ref1 = card1.querySelector('.reference');
+        const ref2 = card2.querySelector('.reference');
+        ref1.classList.add('appear')
+        ref2.classList.add('appear')
 
         if (matchedPairs === matchCount) {
-            reInitializeGameBoard()
+            setTimeout(() => {
+                reInitializeGameBoard();
+            }, 1000);
         }
     } else {
         setTimeout(() => {
@@ -384,8 +627,8 @@ function initializeGameBoard() {
     const cards = [];
     const selectedProverbs = getRandomElements(proverbs, matchCount)
     selectedProverbs.forEach((proverb, index) => {
-        cards.push(createCard(proverb.beginning, `card-${index}`));
-        cards.push(createCard(proverb.ending, `card-${index}`));
+        cards.push(createCard(proverb.beginning, index, proverb));
+        cards.push(createCard(proverb.ending, index, proverb));
     });
 
     cards.sort(() => 0.5 - Math.random());

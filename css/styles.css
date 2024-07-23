@@ -30,6 +30,9 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 70%;
     padding: 20px;
     background-color: var(--second-color);
@@ -58,15 +61,20 @@ body {
 }
 
 .content::before {
-    top: -10px;
+    top: -5px;
 }
 
 .content::after {
-    bottom: -10px;
+    bottom: -5px;
 }
 
 p {
     margin: 20px 0;
+}
+
+.reference {
+    opacity: 0%;
+    padding-top: 10px;
 }
 
 @keyframes fadeOut {
@@ -97,6 +105,10 @@ p {
 
 .card.appear {
     animation: appear 1s forwards;
+}
+
+.reference.appear {
+    animation: appear 0.5s forwards;
 }
 
 @keyframes appear {
